@@ -1,0 +1,14 @@
+.btn {
+    width: 40px;
+}
+
+.btn.btn-danger {
+    width: 100px;
+}
+
+.wrapper {
+    background-color: antiquewhite;
+    padding: 10px;
+    height: 400px;
+    border-radius: 15px;
+}
