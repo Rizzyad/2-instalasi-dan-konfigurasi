@@ -13,7 +13,9 @@ function App() {
 
   const handleTambah = (e) => {
     e.preventDefault();
-    if(angka = {} ) return;
+
+    if (Object.entries(angka).length === 0) return;
+    
     inputanAngka(angka);
 
     function inputanAngka(angka) {
@@ -25,8 +27,11 @@ function App() {
 
   const handleKurang = (e) => {
     e.preventDefault();
-    if(angka = {} ) return;
+
+    if (Object.entries(angka).length === 0) return;
+
     inputanAngka(angka);
+
 
     function inputanAngka(angka) {
       const angka1 = Number(angka.angka1);
@@ -37,8 +42,11 @@ function App() {
 
   const handleKali = (e) => {
     e.preventDefault();
-    if(angka = {} ) return;
+
+    if (Object.entries(angka).length === 0) return;
+
     inputanAngka(angka);
+
 
     function inputanAngka(angka) {
       const angka1 = Number(angka.angka1);
@@ -49,8 +57,11 @@ function App() {
 
   const handleBagi = (e) => {
     e.preventDefault();
-    if(angka = {} ) return;
+
+    if (Object.entries(angka).length === 0) return;
+
     inputanAngka(angka);
+
 
     function inputanAngka(angka) {
       const angka1 = Number(angka.angka1);
@@ -64,7 +75,6 @@ function App() {
     setAngka({});
     setHasil(0)
   };
-  
 
   return (
     <>
